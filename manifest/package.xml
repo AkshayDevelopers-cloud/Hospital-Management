@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Patient_Default_Page</members>
+        <members>Old_Patients_List</members>
+
+     <name>ApexPage</name>
+    </types>
+    <types>
+         <members>Patient__c.Address__c</members>
+    <members>Patient__c.Age__c</members>
+    <members>Patient__c.Blood_Urea__c</members>
+    <members>Patient__c.Consultant__c</members>
+    <members>Patient__c.Date__c</members>
+    <members>Patient__c.Email_ID__c</members>
+    <members>Patient__c.FollowUp_Date__c</members>
+    <members>Patient__c.Height_cm__c</members>
+    <members>Patient__c.Landline_No__c</members>
+    <members>Patient__c.Mobile_No__c</members>
+    <members>Patient__c.Name__c</members>
+    <members>Patient__c.Occupation__c</members>
+    <members>Patient__c.Other1__c</members>
+    <members>Patient__c.Other2__c</members>
+    <members>Patient__c.Ref_By__c</members>
+    <members>Patient__c.Serum_Albumin__c</members>
+    <members>Patient__c.Serum__c</members>
+    <members>Patient__c.Sex__c</members>
+    <members>Patient__c.Sr_Creatine__c</members>
+    <members>Patient__c.Title__c</members>
+    <members>Patient__c.Urine_PC__c</members>
+    <members>Patient__c.Urine_PH__c</members>
+    <members>Patient__c.Urine_Protein__c</members>
+    <members>Patient__c.Urine_RBC__c</members>
+    <members>Patient__c.Weight_kg__c</members>
+    <members>Patient__c.X24_hr__c</members>
+     <members>opd_paper__c.patientId__c</members>
+     <members>OPD_Collection__c.patientId__c</members>
+      <members>opd_bill__c.patientId__c</members>
+         <members>Akshay__c.patientId__c</members>
+
+          <members>opd_bill__c.consultantId__c</members>
+    <members>opd_bill__c.opdCollectionDate__c</members>
+    <members>opd_bill__c.paid__c</members>
+    <members>opd_bill__c.patientId__c</members>
+    <members>opd_bill__c.total__c</members>
+    <members>OPD_Collection__c.amount__c</members>
+    <members>OPD_Collection__c.consultantId__c</members>
+    <members>OPD_Collection__c.logTimestamp__c</members>
+    <members>OPD_Collection__c.opdBillId__c</members>
+    <members>OPD_Collection__c.opdCollectionDate__c</members>
+    <members>OPD_Collection__c.particular__c</members>
+    <members>OPD_Collection__c.particularId__c</members>
+    <members>OPD_Collection__c.patientId__c</members>
+    <members>opd_collection_head__c.charges__c</members>
+    <members>opd_collection_head__c.particulars__c</members>
+    <members>opd_paper__c.advice__c</members>
+    <members>opd_paper__c.allergy__c</members>
+    <members>opd_paper__c.complaints__c</members>
+    <members>opd_paper__c.diagnosis__c</members>
+    <members>opd_paper__c.examFindings__c</members>
+    <members>opd_paper__c.followupId__c</members>
+    <members>opd_paper__c.investigationsAdvised__c</members>
+    <members>opd_paper__c.lastUpdated__c</members>
+    <members>opd_paper__c.pastHistory__c</members>
+    <members>opd_paper__c.patientId__c</members>
+    <members>opd_paper__c.previousInvestigations__c</members>
+    <members>opd_paper__c.screening__c</members>
+    <members>opd_paper__c.suchana__c</members>
+      <name>CustomField</name>
+    </types>
+    <types>
+     <members>Patient__c</members>
+         <members>Old_Patient__c</members>
+       <members>opd_bill__c</members>
+    <members>OPD_Collection__c</members>
+    <members>opd_collection_head__c</members>
+    <members>opd_paper__c</members>
+       <name>CustomObject</name>
+    </types>
+    
+    <types>
+        <members>Patient__c-en_US</members>
+            <members>Old_Patient__c-en_US</members>
+
+              <members>opd_bill__c-en_US</members>
+    <members>OPD_Collection__c-en_US</members>
+    <members>opd_collection_head__c-en_US</members>
+    <members>opd_paper__c-en_US</members>
+       <name>CustomObjectTranslation</name>
+    </types>
+    <types>
+              <members>Patient__c</members>
+
+        <name>CustomTab</name>
+    </types>
+    <types>
+         <members>Patient__c-New Patient Layout</members>
+           <members>Old_Patient__c-Old Patient Layout</members>
+
+           <members>opd_bill__c-opd_bill Layout</members>
+    <members>OPD_Collection__c-OPD Collection Layout</members>
+    <members>opd_collection_head__c-opd_collection_head Layout</members>
+    <members>opd_paper__c-opd_paper Layout</members>
+
+         <name>Layout</name>
+    </types>
+    <types>
+       <members>Patient__c.All</members>
+          <name>ListView</name>
+    </types>
+
+<types>
+      <members>Old_Patient__c</members>
+       <members>opd_bill__c</members>
+    <members>OPD_Collection__c</members>
+    <members>opd_collection_head__c</members>
+    <members>opd_paper__c</members>
+         <name>SharingRules</name>
+    </types>
+
+<types>
+      <members>Patient__c</members>
+        <members>opd_bill__c</members>
+    <members>OPD_Collection__c</members>
+    <members>opd_collection_head__c</members>
+    <members>opd_paper__c</members>
+      <name>TopicsForObjects</name>
+    </types>
+
+
+    <version>54.0</version>
+</Package>

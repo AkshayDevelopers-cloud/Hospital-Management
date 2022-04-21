@@ -1,0 +1,77 @@
+<apex:page sidebar="false" showHeader="false"  standardController="Patient__c" >
+    
+    <apex:form >
+       
+        <apex:pageBlock title="New Patient">
+        <apex:pageBlockSection >
+         <center>
+        <h1>
+          <apex:inputField value="{!Patient__c.Date__c}"/> 
+            <apex:inputField value="{!Patient__c.Name}"/>
+             <apex:inputField value="{!Patient__c.Title__c}"/> 
+            <apex:inputField value="{!Patient__c.Age__c}"/>
+             <apex:inputField value="{!Patient__c.Name__c}"/>
+                <apex:inputField value="{!Patient__c.Sex__c}"/>
+            <apex:inputField value="{!Patient__c.Address__c}"/> 
+            
+            <apex:inputField value="{!Patient__c.Mobile_No__c}"/> 
+            <apex:inputField value="{!Patient__c.Landline_No__c}"/>
+              <apex:inputField value="{!Patient__c.Email_ID__c}"/>
+           <apex:inputField value="{!Patient__c.Occupation__c}"/>
+            <apex:inputField value="{!Patient__c.Ref_By__c}"/> 
+            <apex:inputField value="{!Patient__c.Consultant__c}"/>
+            
+            
+              <apex:inputField value="{!Patient__c.Weight_kg__c}"/>
+             <apex:inputField value="{!Patient__c.Height_cm__c}"/>
+             </h1>
+         </center>
+        
+        </apex:pageBlockSection>
+        <apex:pageBlockButtons >
+        <apex:commandButton action="{!save}" value="SaveMyData"/>
+        
+        </apex:pageBlockButtons>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        </apex:pageBlock>
+       
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </apex:form>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</apex:page>
