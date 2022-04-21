@@ -73,6 +73,14 @@
     <members>Add_Ref__c.Landline_No__c</members>
     <members>Add_Ref__c.Middle_Name__c</members>
     <members>Add_Ref__c.Mobile_No__c</members>
+     <members>Akshay__c.Conform__c</members>
+    <members>Akshay__c.Descriptions__c</members>
+    <members>Akshay__c.Email__c</members>
+    <members>Akshay__c.FirstName__c</members>
+    <members>Akshay__c.Gender__c</members>
+    <members>Akshay__c.LastName__c</members>
+    <members>Akshay__c.Mobile__c</members>
+    <members>Akshay__c.patientId__c</members>
       <name>CustomField</name>
     </types>
     <types>
@@ -84,6 +92,7 @@
     <members>opd_paper__c</members>
         <members>Add_Consultant__c</members>
     <members>Add_Ref__c</members>
+      <members>Akshay__c</members>
        <name>CustomObject</name>
     </types>
     
@@ -97,11 +106,12 @@
     <members>opd_paper__c-en_US</members>
         <members>Add_Consultant__c-en_US</members>
     <members>Add_Ref__c-en_US</members>
+        <members>Akshay__c-en_US</members>
        <name>CustomObjectTranslation</name>
     </types>
     <types>
               <members>Patient__c</members>
-        
+            <members>Akshay__c</members>
         <name>CustomTab</name>
     </types>
     <types>
@@ -114,10 +124,12 @@
     <members>opd_paper__c-opd_paper Layout</members>
   <members>Add_Consultant__c-Add Consultant Layout</members>
     <members>Add_Ref__c-Add Ref By Layout</members>
+      <members>Akshay__c-Akshay Layout</members>
          <name>Layout</name>
     </types>
     <types>
        <members>Patient__c.All</members>
+         <members>Akshay__c.All</members>
           <name>ListView</name>
     </types>
 
@@ -140,6 +152,7 @@
     <members>opd_paper__c</members>
        <members>Add_Consultant__c</members>
     <members>Add_Ref__c</members>
+      <members>Akshay__c</members>
       <name>TopicsForObjects</name>
     </types>
 
