@@ -66,6 +66,13 @@
     <members>opd_paper__c.previousInvestigations__c</members>
     <members>opd_paper__c.screening__c</members>
     <members>opd_paper__c.suchana__c</members>
+    <members>Add_Ref__c.Address__c</members>
+    <members>Add_Ref__c.Degree__c</members>
+    <members>Add_Ref__c.Email_ID__c</members>
+    <members>Add_Ref__c.First_Name__c</members>
+    <members>Add_Ref__c.Landline_No__c</members>
+    <members>Add_Ref__c.Middle_Name__c</members>
+    <members>Add_Ref__c.Mobile_No__c</members>
       <name>CustomField</name>
     </types>
     <types>
@@ -75,6 +82,8 @@
     <members>OPD_Collection__c</members>
     <members>opd_collection_head__c</members>
     <members>opd_paper__c</members>
+        <members>Add_Consultant__c</members>
+    <members>Add_Ref__c</members>
        <name>CustomObject</name>
     </types>
     
@@ -86,11 +95,13 @@
     <members>OPD_Collection__c-en_US</members>
     <members>opd_collection_head__c-en_US</members>
     <members>opd_paper__c-en_US</members>
+        <members>Add_Consultant__c-en_US</members>
+    <members>Add_Ref__c-en_US</members>
        <name>CustomObjectTranslation</name>
     </types>
     <types>
               <members>Patient__c</members>
-
+        
         <name>CustomTab</name>
     </types>
     <types>
@@ -101,7 +112,8 @@
     <members>OPD_Collection__c-OPD Collection Layout</members>
     <members>opd_collection_head__c-opd_collection_head Layout</members>
     <members>opd_paper__c-opd_paper Layout</members>
-
+  <members>Add_Consultant__c-Add Consultant Layout</members>
+    <members>Add_Ref__c-Add Ref By Layout</members>
          <name>Layout</name>
     </types>
     <types>
@@ -115,6 +127,8 @@
     <members>OPD_Collection__c</members>
     <members>opd_collection_head__c</members>
     <members>opd_paper__c</members>
+    <members>Add_Consultant__c</members>
+    <members>Add_Ref__c</members>
          <name>SharingRules</name>
     </types>
 
@@ -124,6 +138,8 @@
     <members>OPD_Collection__c</members>
     <members>opd_collection_head__c</members>
     <members>opd_paper__c</members>
+       <members>Add_Consultant__c</members>
+    <members>Add_Ref__c</members>
       <name>TopicsForObjects</name>
     </types>
 
